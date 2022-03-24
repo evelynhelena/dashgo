@@ -3,7 +3,7 @@ import { FormControl, FormLabel, Input as ChakraInput, InputProps as ChakraInput
 interface InputProps extends ChakraInputProps{
     name: string;
     label?: string;
-    type: string;
+    type?: string;
 }
 
 export function Input({ name, label, ...rest}: InputProps) {
