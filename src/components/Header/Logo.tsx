@@ -3,7 +3,7 @@ import { Text } from "@chakra-ui/react";
 export function Logo() {
     return (
         <Text
-            fontSize="3xl"
+            fontSize={{sm:"2xl",md:"3xl"}}
             fontWeight="bold"
             w="64">
             dashgo
